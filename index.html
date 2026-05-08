@@ -1224,43 +1224,125 @@
       </div>
     </div>
 
-    <!-- COMPOSIÇÃO DA PROPOSTA -->
+    <!-- COMPOSIÇÃO DA PROPOSTA — POR UNIDADE -->
     <div style="margin-bottom:16px;">
       <div class="section-tag">Composição da proposta</div>
-      <h2 class="section-title" style="margin-bottom:32px;">Investimento mensal</h2>
+      <h2 class="section-title" style="margin-bottom:12px;">Investimento mensal por unidade</h2>
+      <p class="section-desc" style="margin-bottom:32px;">Central de Fretes + Monitoramento de Entregas integrados. Os dois serviços funcionam juntos para garantir o ciclo completo, da cotação ao comprovante de entrega.</p>
     </div>
-    <div style="border-radius:16px;overflow:hidden;border:1px solid var(--border);">
-      <!-- Header -->
-      <div style="display:grid;grid-template-columns:2fr 1.2fr 1.2fr 1fr 2fr;background:var(--text-primary);padding:16px 24px;gap:12px;">
-        <div style="font-size:13px;font-weight:600;color:var(--white);">Módulo</div>
-        <div style="font-size:13px;font-weight:600;color:var(--white);text-align:right;">Fee Mensal</div>
-        <div style="font-size:13px;font-weight:600;color:var(--white);text-align:right;">Fee Anual</div>
-        <div style="font-size:13px;font-weight:600;color:var(--white);text-align:center;">% s/ Frete</div>
-        <div style="font-size:13px;font-weight:600;color:var(--white);text-align:center;">Observação</div>
+
+    <!-- IMPLANTAÇÃO GRADATIVA -->
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:28px;">
+      <div style="font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);">Implantação sugerida</div>
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span style="background:var(--purple);color:var(--white);padding:5px 14px;border-radius:100px;font-size:12px;font-weight:600;">Fase 1 · Turvo</span>
+        <span style="color:var(--text-muted);font-size:16px;">→</span>
+        <span style="background:var(--purple-bg);color:var(--purple);padding:5px 14px;border-radius:100px;font-size:12px;font-weight:600;border:1px solid var(--border-strong);">Fase 2 · Araucária</span>
+        <span style="color:var(--text-muted);font-size:16px;">→</span>
+        <span style="background:var(--purple-bg);color:var(--purple);padding:5px 14px;border-radius:100px;font-size:12px;font-weight:600;border:1px solid var(--border-strong);">Fase 3 · Embu das Artes</span>
       </div>
-      <!-- Central de Fretes -->
-      <div style="display:grid;grid-template-columns:2fr 1.2fr 1.2fr 1fr 2fr;background:var(--white);padding:18px 24px;gap:12px;border-bottom:1px solid var(--border);align-items:center;">
-        <div style="font-size:15px;font-weight:500;color:var(--text-primary);">Central de Fretes</div>
-        <div style="font-size:15px;font-weight:600;color:var(--text-primary);text-align:right;">R$ 47.045</div>
-        <div style="font-size:14px;color:var(--text-secondary);text-align:right;">R$ 564.541</div>
-        <div style="text-align:center;"><span style="background:var(--purple-bg);color:var(--purple);padding:4px 12px;border-radius:100px;font-size:13px;font-weight:600;">1,43%</span></div>
-        <div style="font-size:13px;color:var(--text-muted);text-align:center;">3 analistas + coordenação</div>
+    </div>
+
+    <!-- CARDS POR UNIDADE -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:20px;">
+
+      <!-- TURVO (FASE 1) -->
+      <div style="background:var(--white);border:2px solid var(--purple);border-radius:16px;padding:28px 24px;position:relative;overflow:hidden;">
+        <div style="position:absolute;top:0;left:0;right:0;height:4px;background:var(--purple);"></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;">
+          <div>
+            <div style="font-family:'Syne',sans-serif;font-size:20px;font-weight:700;color:var(--text-primary);">Turvo</div>
+            <div style="font-size:12px;color:var(--text-muted);">Matriz · PR</div>
+          </div>
+          <span style="background:var(--purple);color:var(--white);padding:4px 12px;border-radius:100px;font-size:11px;font-weight:600;">FASE 1</span>
+        </div>
+        <div style="background:var(--bg2);border-radius:10px;padding:16px;margin-bottom:12px;">
+          <div style="font-size:12px;color:var(--text-muted);margin-bottom:4px;">Central de Fretes</div>
+          <div style="font-family:'Syne',sans-serif;font-size:16px;font-weight:600;color:var(--text-primary);">R$ 23.522,53</div>
+        </div>
+        <div style="background:var(--bg2);border-radius:10px;padding:16px;margin-bottom:16px;">
+          <div style="font-size:12px;color:var(--text-muted);margin-bottom:4px;">Monitoramento de Entregas</div>
+          <div style="font-family:'Syne',sans-serif;font-size:16px;font-weight:600;color:var(--text-primary);">R$ 9.779,01</div>
+        </div>
+        <div style="border-top:2px solid var(--purple);padding-top:14px;">
+          <div style="font-size:12px;color:var(--text-muted);margin-bottom:2px;">Fee mensal da unidade</div>
+          <div style="font-family:'Syne',sans-serif;font-size:26px;font-weight:700;color:var(--purple);line-height:1;">R$ 33.301,54</div>
+          <div style="font-size:12px;color:var(--text-muted);margin-top:4px;">R$ 399.618,48 /ano</div>
+        </div>
       </div>
-      <!-- Monitoramento -->
-      <div style="display:grid;grid-template-columns:2fr 1.2fr 1.2fr 1fr 2fr;background:var(--bg2);padding:18px 24px;gap:12px;border-bottom:1px solid var(--border);align-items:center;">
-        <div style="font-size:15px;font-weight:500;color:var(--text-primary);">Monitoramento de Entregas</div>
-        <div style="font-size:15px;font-weight:600;color:var(--text-primary);text-align:right;">R$ 19.558</div>
-        <div style="font-size:14px;color:var(--text-secondary);text-align:right;">R$ 234.696</div>
-        <div style="text-align:center;"><span style="background:var(--purple-bg);color:var(--purple);padding:4px 12px;border-radius:100px;font-size:13px;font-weight:600;">0,60%</span></div>
-        <div style="font-size:13px;color:var(--text-muted);text-align:center;">2 analistas — ajustar headcount</div>
+
+      <!-- ARAUCÁRIA (FASE 2) -->
+      <div style="background:var(--white);border:1px solid var(--border);border-radius:16px;padding:28px 24px;position:relative;overflow:hidden;">
+        <div style="position:absolute;top:0;left:0;right:0;height:4px;background:var(--border-strong);"></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;">
+          <div>
+            <div style="font-family:'Syne',sans-serif;font-size:20px;font-weight:700;color:var(--text-primary);">Araucária</div>
+            <div style="font-size:12px;color:var(--text-muted);">PR</div>
+          </div>
+          <span style="background:var(--purple-bg);color:var(--purple);padding:4px 12px;border-radius:100px;font-size:11px;font-weight:600;border:1px solid var(--border-strong);">FASE 2</span>
+        </div>
+        <div style="background:var(--bg2);border-radius:10px;padding:16px;margin-bottom:12px;">
+          <div style="font-size:12px;color:var(--text-muted);margin-bottom:4px;">Central de Fretes</div>
+          <div style="font-family:'Syne',sans-serif;font-size:16px;font-weight:600;color:var(--text-primary);">R$ 14.113,52</div>
+        </div>
+        <div style="background:var(--bg2);border-radius:10px;padding:16px;margin-bottom:16px;">
+          <div style="font-size:12px;color:var(--text-muted);margin-bottom:4px;">Monitoramento de Entregas</div>
+          <div style="font-family:'Syne',sans-serif;font-size:16px;font-weight:600;color:var(--text-primary);">R$ 5.867,41</div>
+        </div>
+        <div style="border-top:2px solid var(--border-strong);padding-top:14px;">
+          <div style="font-size:12px;color:var(--text-muted);margin-bottom:2px;">Fee mensal da unidade</div>
+          <div style="font-family:'Syne',sans-serif;font-size:26px;font-weight:700;color:var(--purple);line-height:1;">R$ 19.980,93</div>
+          <div style="font-size:12px;color:var(--text-muted);margin-top:4px;">R$ 239.771,16 /ano</div>
+        </div>
       </div>
-      <!-- TOTAL -->
-      <div style="display:grid;grid-template-columns:2fr 1.2fr 1.2fr 1fr 2fr;background:var(--purple);padding:20px 24px;gap:12px;align-items:center;">
-        <div style="font-size:15px;font-weight:700;color:var(--white);">TOTAL — PROPOSTA COMPLETA</div>
-        <div style="font-size:18px;font-weight:700;color:var(--white);text-align:right;">R$ 66.603</div>
-        <div style="font-size:15px;font-weight:600;color:rgba(255,255,255,0.8);text-align:right;">R$ 799.237</div>
-        <div style="text-align:center;"><span style="background:rgba(255,255,255,0.2);color:var(--white);padding:5px 14px;border-radius:100px;font-size:14px;font-weight:700;">2,03%</span></div>
-        <div style="font-size:13px;color:rgba(255,255,255,0.7);text-align:center;">Fee total / frete gerenciado</div>
+
+      <!-- EMBU DAS ARTES (FASE 3) -->
+      <div style="background:var(--white);border:1px solid var(--border);border-radius:16px;padding:28px 24px;position:relative;overflow:hidden;">
+        <div style="position:absolute;top:0;left:0;right:0;height:4px;background:var(--border-strong);"></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;">
+          <div>
+            <div style="font-family:'Syne',sans-serif;font-size:20px;font-weight:700;color:var(--text-primary);">Embu das Artes</div>
+            <div style="font-size:12px;color:var(--text-muted);">SP</div>
+          </div>
+          <span style="background:var(--purple-bg);color:var(--purple);padding:4px 12px;border-radius:100px;font-size:11px;font-weight:600;border:1px solid var(--border-strong);">FASE 3</span>
+        </div>
+        <div style="background:var(--bg2);border-radius:10px;padding:16px;margin-bottom:12px;">
+          <div style="font-size:12px;color:var(--text-muted);margin-bottom:4px;">Central de Fretes</div>
+          <div style="font-family:'Syne',sans-serif;font-size:16px;font-weight:600;color:var(--text-primary);">R$ 9.409,01</div>
+        </div>
+        <div style="background:var(--bg2);border-radius:10px;padding:16px;margin-bottom:16px;">
+          <div style="font-size:12px;color:var(--text-muted);margin-bottom:4px;">Monitoramento de Entregas</div>
+          <div style="font-family:'Syne',sans-serif;font-size:16px;font-weight:600;color:var(--text-primary);">R$ 3.911,60</div>
+        </div>
+        <div style="border-top:2px solid var(--border-strong);padding-top:14px;">
+          <div style="font-size:12px;color:var(--text-muted);margin-bottom:2px;">Fee mensal da unidade</div>
+          <div style="font-family:'Syne',sans-serif;font-size:26px;font-weight:700;color:var(--purple);line-height:1;">R$ 13.320,61</div>
+          <div style="font-size:12px;color:var(--text-muted);margin-top:4px;">R$ 159.847,32 /ano</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TOTAL CONSOLIDADO -->
+    <div style="background:var(--purple);border-radius:16px;padding:24px 28px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;">
+      <div>
+        <div style="font-size:13px;font-weight:600;color:var(--cyan);margin-bottom:4px;">Proposta completa (3 unidades)</div>
+        <div style="font-size:13px;color:rgba(255,255,255,0.6);">Central de Fretes + Monitoramento de Entregas integrados</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:32px;">
+        <div style="text-align:right;">
+          <div style="font-size:12px;color:rgba(255,255,255,0.5);">Fee mensal</div>
+          <div style="font-family:'Syne',sans-serif;font-size:28px;font-weight:700;color:var(--white);line-height:1;">R$ 66.603,08</div>
+        </div>
+        <div style="width:1px;height:40px;background:rgba(255,255,255,0.2);"></div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;color:rgba(255,255,255,0.5);">Fee anual</div>
+          <div style="font-family:'Syne',sans-serif;font-size:28px;font-weight:700;color:var(--white);line-height:1;">R$ 799.236,96</div>
+        </div>
+        <div style="width:1px;height:40px;background:rgba(255,255,255,0.2);"></div>
+        <div style="text-align:center;">
+          <div style="font-size:12px;color:rgba(255,255,255,0.5);">% s/ frete</div>
+          <div style="font-family:'Syne',sans-serif;font-size:22px;font-weight:700;color:var(--cyan);line-height:1;">2,03%</div>
+        </div>
       </div>
     </div>
   </div>
